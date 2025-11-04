@@ -13,10 +13,5 @@ public class UsuarioController{
     public String loginMostrar(){
         return "login";
     }
-    @RequestMapping("/test")
-    @ResponseBody
-    public String test() {
-        return "Controlador activo";
-    }
 }
     
